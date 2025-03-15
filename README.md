@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js DJMC Website
 
-## Getting Started
+This is a **full-stack website** for the **Department of Journalism and Mass Communication (DJMC)** built using [Next.js](https://nextjs.org). The project leverages modern web technologies for a seamless and dynamic user experience.
 
-First, run the development server:
+## 🚀 Features
 
+- ✅ **Next.js 14** – Fast, optimized, and server-side rendering
+- 🎨 **Tailwind CSS** – Modern, responsive UI design
+- 📡 **API Routes** – Full-stack capabilities for dynamic content
+- 🔒 **NextAuth.js** – Secure authentication system
+- 🗄️ **MongoDB & Prisma** – Database integration for content management
+- 🚀 **Vercel Deployment** – Easy and efficient hosting
+
+## 📦 Getting Started
+
+### 1️⃣ Clone the Repository
+<!-- ```bash
+git clone https://github.com/your-username/djmc-website.git
+cd djmc-website
+``` -->
+
+### 2️⃣ Install Dependencies
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install  # or yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3️⃣ Setup Environment Variables
+Create a `.env.local` file and add the following variables:
+```env
+MONGODB_URI=your_mongodb_connection_string
+NEXTAUTH_SECRET=your_secret_key
+NEXTAUTH_URL=http://localhost:3000
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4️⃣ Run the Development Server
+```bash
+npm run dev  # or yarn dev
+```
+Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗️ Project Structure
+```
+📁 app/                 # Authentication API (NextAuth.js)
+ 📁 components/         # Reusable UI components
+ 📁 models/             # Mongoose Models
+ 📁 lib/                # Database connection & helpers
+```
 
-## Learn More
+## 🔧 Learn More
+- 📖 [Next.js Documentation](https://nextjs.org/docs)
+- 🏫 [Learn Next.js](https://nextjs.org/learn)
+- 🔗 [Next.js GitHub](https://github.com/vercel/next.js)
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Deployment
+The easiest way to deploy this app is through **Vercel**:
+```bash
+vercel
+```
+Check out the [Next.js Deployment Guide](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
+### 📌 License
+This project is licensed under the **MIT License**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
