@@ -25,7 +25,7 @@ import MobileNav from "./MobileNav";
 
 export function SiteHeader() {
 
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen] = useState(false);
     // mobile open sheet and close 
     const [isOpenMobile, setIsOpenMobile] = useState(false);
 
