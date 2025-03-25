@@ -41,7 +41,7 @@ export function SiteHeader() {
 
 
     return (
-        <header className="sticky top-0 z-50 bg-white w-full border-b text-gray-500 pr-4">
+        <header className="sticky top-0 z-50 bg-white w-full border-b text-gray-800 pr-4">
             <div className="container flex h-16 items-center w-auto justify-between">
                 <div className="ml-[25px] lg:ml-[80px] mr-4 flex items-center md:mr-6">
                     <Link href="/" className="flex items-center space-x-2">
@@ -53,7 +53,10 @@ export function SiteHeader() {
                             style={{ objectFit: "cover" }}
                             className="h-[60px] w-auto rounded-full"
                         />
-                        {/* <span className="text-xl lg:text-2xl font-bold text-headingcol">Projectile 45</span> */}
+                        <div>
+                    <span className="text-xl lg:text-2xl font-bold text-headingcol">Department of Journalism and Mass Communication</span>
+                            <br /> <span>(Chhatrapati Shahu Ji Maharaj University, Kanpur)</span>
+                        </div>
                     </Link>
                 </div>
                 {/* Mobile Navigation */}

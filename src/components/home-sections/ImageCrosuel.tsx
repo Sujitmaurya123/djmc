@@ -15,31 +15,31 @@ import Link from "next/link";
 const slides = [
     {
         image: "/images/image1.jpg",
-        title: "Beautiful Landscape",
+        title: "News1",
         description: "Explore the stunning views of nature.",
         link: "/landscape"
     },
     {
         image: "/images/image2.jpg",
-        title: "City Lights",
+        title: "News2",
         description: "Experience the magic of urban nightlife.",
         link: "/city"
     },
     {
         image: "/images/image3.jpg",
-        title: "Mountain Adventure",
+        title: "News3",
         description: "Discover breathtaking mountain trails.",
         link: "/mountains"
     },
     {
         image: "/images/image4.jpg",
-        title: "Ocean Breeze",
+        title: "News4",
         description: "Relax and unwind by the beach.",
         link: "/ocean"
     },
     {
         image: "/images/image5.jpg",
-        title: "Wildlife Safari",
+        title: "News4",
         description: "Get close to nature's most exotic animals.",
         link: "/safari"
     }

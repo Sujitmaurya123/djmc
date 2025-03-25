@@ -15,25 +15,25 @@ import Link from "next/link";
 const slides = [
     {
         image: "/images/image1.jpg",
-        title: "Beautiful Landscape",
+        title: "Event 1",
         description: "Explore the stunning views of nature.",
         link: "/landscape"
     },
     {
         image: "/images/image2.jpg",
-        title: "City Lights",
+        title: "Event 2",
         description: "Experience the magic of urban nightlife.",
         link: "/city"
     },
     {
         image: "/images/image3.jpg",
-        title: "Mountain Adventure",
+        title: "Event 3",
         description: "Discover breathtaking mountain trails.",
         link: "/mountains"
     },
     {
         image: "/images/image3.jpg",
-        title: "Mountain Adventure",
+        title: "Event 4",
         description: "Discover breathtaking mountain trails.",
         link: "/mountains"
     }
