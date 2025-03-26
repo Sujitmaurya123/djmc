@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Fuse from "fuse.js";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 // FAQ Data
 const faqData = [
@@ -158,7 +159,26 @@ const Chatbot: React.FC = () => {
         <div className="w-full max-w-4xl mx-auto h-[400px] sm:h-[400px] md:h-[400px] flex flex-col justify-between border border-gray-300 shadow-lg rounded-lg bg-white sm:mt-0 mt-0 ">
             {/* Chat Header */}
             <div className="bg-blue-600 text-white p-4 rounded-t-lg flex justify-between items-center">
-                <h3 className="text-lg font-semibold">Ask a Question</h3>
+                {/* <h3 className="text-lg font-semibold">Ask a Question</h3> */}
+                {/* Circle Image with Namaste */}
+                <div className="flex  items-center">
+
+                <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-yellow-500">
+                    <Image
+                        src="/chatimage.png" // Replace with your image URL
+                        alt="Namaste"
+                        width="20"
+                        height="20"
+                        className="w-full h-full object-cover"
+                    />
+                    
+                </div>
+                <div>
+                    <span>Ask</span>
+                <h3 className="text-sm font-semibold">Currenta</h3>
+                </div>
+                </div>
+
                 <Button
                     onClick={handleClearChat}
                     className="bg-red-500 text-white px-3 py-1 rounded-lg hover:bg-red-600 transition"
