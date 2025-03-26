@@ -61,7 +61,7 @@ const Blog: NextPage = () => {
         <div className="container mx-auto px-6 sm:px-8 lg:px-12 py-8">
             {/* Header Section */}
             <div className="mb-8 text-center">
-                <h1 className="text-3xl font-bold text-blue-800 sm:text-4xl mb-4">
+                <h1 className="text-3xl font-bold text-white sm:text-4xl mb-4">
                  Blogs
                 </h1>
                

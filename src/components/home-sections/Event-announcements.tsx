@@ -89,7 +89,7 @@ const EventAnnouncements: React.FC = () => {
 
                 {/* Right Section: Likes & Announcements */}
                 <div className="flex flex-col justify-center items-center  p-6 rounded-lg shadow-lg">
-                    <h2 className="text-2xl font-bold mb-4 text-blue-800">Latest Announcements</h2>
+                    <h2 className="text-2xl font-bold mb-4 text-white">Latest Announcements</h2>
                     <div className="space-y-4">
                         {/* Announcement Card */}
                         <div className=" p-4  w-full">

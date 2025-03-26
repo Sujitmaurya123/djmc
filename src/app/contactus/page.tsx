@@ -8,7 +8,7 @@ const Contact: NextPage = () => {
         <div className="container mx-auto px-6 sm:px-8 lg:px-12 py-12">
             {/* Header Section */}
             <div className="text-center mb-12">
-                <h1 className="text-3xl font-bold text-blue-800 sm:text-4xl mb-4">
+                <h1 className="text-3xl font-bold text-white sm:text-4xl mb-4">
                     Contact Us
                 </h1>
                 <p className="text-white max-w-2xl mx-auto">

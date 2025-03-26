@@ -7,13 +7,38 @@ const Home: NextPage = () => {
         <div className="container mx-auto px-6 sm:px-8 lg:px-12 py-5 text-justify max-w-6xl ">
             {/* Header Section */}
             <div className="mb-8">
-                <h1 className="text-2xl font-bold text-blue-800 sm:text-3xl text-center mb-8">
+                <h1 className="text-2xl font-bold text-white sm:text-3xl text-center mb-8">
                     HOD&apos;s / In-charge&apos;s Message & About The Department
                 </h1>
             </div>
 
             {/* Main Content */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                {/* About The Department */}
+                <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h2 className="text-xl font-semibold text-gray-700 mb-4 text-center lg:text-left">
+                        About The Department
+                    </h2>
+                    <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-4 text-center lg:text-left">
+                        Chhatrapati Shahu Ji Maharaj University&apos;s Department of Journalism and Mass Communication
+                        functions with the motto of &quot;Building Intellectuals of Tomorrow&quot;. This idea is achieved by preparing
+                        students to be vanguards for the ordinary citizens of society. Media studies courses are developed
+                        keeping in mind the overall development of the students while training them to be highly compatible with
+                        the latest innovations and developments in all domains of the media profession. The faculty members of
+                        the Media Studies programme are all Doctorate from various sectors of Media Studies and nurture the
+                        desire for responsible and creative expression in the students.
+                    </p>
+                    <div className="text-center lg:text-left">
+                        <a
+                            href="/brochure_2023-24.pdf"
+                            className="inline-block bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300 focus:outline-none focus:shadow-outline"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Download Brochure 2023-24
+                        </a>
+                    </div>
+                </div>
                 {/* HOD's Message */}
                 <div className="mb-6 lg:mb-0 bg-gray-100 p-6 rounded-lg shadow-md">
                     <h2 className="text-xl font-semibold text-gray-700 mb-4 text-center lg:text-left">
@@ -46,31 +71,7 @@ const Home: NextPage = () => {
                     </div>
                 </div>
 
-                {/* About The Department */}
-                <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-                    <h2 className="text-xl font-semibold text-gray-700 mb-4 text-center lg:text-left">
-                        About The Department
-                    </h2>
-                    <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-4 text-center lg:text-left">
-                        Chhatrapati Shahu Ji Maharaj University&apos;s Department of Journalism and Mass Communication
-                        functions with the motto of &quot;Building Intellectuals of Tomorrow&quot;. This idea is achieved by preparing
-                        students to be vanguards for the ordinary citizens of society. Media studies courses are developed
-                        keeping in mind the overall development of the students while training them to be highly compatible with
-                        the latest innovations and developments in all domains of the media profession. The faculty members of
-                        the Media Studies programme are all Doctorate from various sectors of Media Studies and nurture the
-                        desire for responsible and creative expression in the students.
-                    </p>
-                    <div className="text-center lg:text-left">
-                        <a
-                            href="/brochure_2023-24.pdf"
-                            className="inline-block bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300 focus:outline-none focus:shadow-outline"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Download Brochure 2023-24
-                        </a>
-                    </div>
-                </div>
+                
             </div>
 
             {/* Department Contact */}

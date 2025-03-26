@@ -58,7 +58,7 @@ export function SiteHeader() {
                         {/* Text Section */}
                         <div className="text-left">
                             {/* Visible only on large screens */}
-                            <span className="   font-semibold text-headingcol ">
+                            <span className="  text-2xl font-semibold text-headingcol ">
                                 Department of Journalism and Mass Communication
                             </span>
                             <br />
@@ -66,6 +66,15 @@ export function SiteHeader() {
                                 (Chhatrapati Shahu Ji Maharaj University, Kanpur)
                             </span>
                         </div>
+                        {/* Logo Section */}
+                        <Image
+                            src="/csjmnaaclogo.jpeg"
+                            alt="Department Logo"
+                            width={100}
+                            height={100}
+                            style={{ objectFit: "cover" }}
+                            className="h-[40px] w-[50px] sm:h-[40px] sm:w-[60px] md:h-[50px] md:w-[70px] lg:h-[60px] lg:w-[80px] rounded-full"
+                        />
                     </Link>
                 </div>
 

@@ -26,7 +26,7 @@ export function HeroSection() {
     );
 
     return (
-        <div className="w-full mx-auto flex justify-center">
+        <div className="w-full mx-auto flex justify-center ">
             <Carousel
                 plugins={[pluginRef.current]}
                 className="w-[90vw]"
