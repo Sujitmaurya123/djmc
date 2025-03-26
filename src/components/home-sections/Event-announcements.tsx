@@ -63,12 +63,12 @@ const EventAnnouncements: React.FC = () => {
                                                     alt={slide.title}
                                                     width={600}
                                                     height={400}
-                                                    className="w-full h-[40vh] object-cover rounded-t-lg"
+                                                    className="w-full h-[25vh] object-cover rounded-t-lg"
                                                 />
                                                 {/* Text Content */}
                                                 <div className="p-4 text-center">
                                                     <h3 className="text-lg font-semibold">{slide.title}</h3>
-                                                    <p className="text-gray-600 text-sm mt-2">{slide.description}</p>
+                                                    <p className="text-white text-sm mt-2">{slide.description}</p>
                                                     {/* Link Button */}
                                                     <Link href={slide.link}>
                                                         <span className="inline-block mt-4 px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition">
@@ -89,16 +89,21 @@ const EventAnnouncements: React.FC = () => {
 
                 {/* Right Section: Likes & Announcements */}
                 <div className="flex flex-col justify-center items-center  p-6 rounded-lg shadow-lg">
-                    <h2 className="text-2xl font-bold mb-4">Latest Announcements</h2>
+                    <h2 className="text-2xl font-bold mb-4 text-blue-800">Latest Announcements</h2>
                     <div className="space-y-4">
                         {/* Announcement Card */}
                         <div className=" p-4  w-full">
-                            <h3 className="text-lg font-semibold">🎉 New Feature Released!</h3>
-                            <p className="text-sm text-gray-600">We’ve added a new feature to enhance your experience. Check it out now!</p>
+                            <h3 className="text-lg font-semibold text-blue-800">🎉 New Feature Released!</h3>
+                            <p className="text-sm text-white">We’ve added a new feature to enhance your experience. Check it out now!</p>
+                            <p className="text-sm text-white">We’ve added a new feature to enhance your experience. Check it out now!</p>
+                            <p className="text-sm text-white">We’ve added a new feature to enhance your experience. Check it out now!</p>
                         </div>
                         <div className=" p-4  w-full">
-                            <h3 className="text-lg font-semibold">🚀 Upcoming Update</h3>
-                            <p className="text-sm text-gray-600">Stay tuned for our next big update, coming soon!</p>
+                            <h3 className="text-lg font-semibold text-blue-800">🚀 Upcoming Update</h3>
+                            <p className="text-sm text-white">Stay tuned for our next big update, coming soon!</p>
+                            <p className="text-sm text-white">Stay tuned for our next big update, coming soon!</p>
+                            <p className="text-sm text-white">Stay tuned for our next big update, coming soon!</p>
+
                         </div>
                     </div>
 

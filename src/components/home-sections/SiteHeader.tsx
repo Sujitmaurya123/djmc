@@ -43,22 +43,32 @@ export function SiteHeader() {
     return (
         <header className="sticky top-0 z-50 bg-white w-full border-b text-gray-800 pr-4">
             <div className="container flex h-16 items-center w-auto justify-between">
-                <div className="ml-[25px] lg:ml-[80px] mr-4 flex items-center md:mr-6">
-                    <Link href="/" className="flex items-center space-x-2">
+                <div className="ml-4 md:ml-8 lg:ml-[80px] mr-4 flex items-center space-x-3 md:space-x-4">
+                    <Link href="/" className="flex items-center space-x-3 sm:space-x-4">
+                        {/* Logo Section */}
                         <Image
                             src="/csjm-logo.png"
-                            alt="Projectile 45 Logo"
+                            alt="Department Logo"
                             width={100}
                             height={100}
                             style={{ objectFit: "cover" }}
-                            className="h-[60px] w-auto rounded-full"
+                            className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] rounded-full"
                         />
-                        <div>
-                    <span className="text-xl lg:text-2xl font-bold text-headingcol">Department of Journalism and Mass Communication</span>
-                            <br /> <span>(Chhatrapati Shahu Ji Maharaj University, Kanpur)</span>
+
+                        {/* Text Section */}
+                        <div className="text-left">
+                            {/* Visible only on large screens */}
+                            <span className="   font-semibold text-headingcol ">
+                                Department of Journalism and Mass Communication
+                            </span>
+                            <br />
+                            <span className="  text-gray-600">
+                                (Chhatrapati Shahu Ji Maharaj University, Kanpur)
+                            </span>
                         </div>
                     </Link>
                 </div>
+
                 {/* Mobile Navigation */}
                 <Sheet open={isOpenMobile} onOpenChange={toggleSheet}>
                     <SheetTrigger asChild>
@@ -90,8 +100,8 @@ export function SiteHeader() {
                             Abouts
                         </Link>
                         <Resources />
-                        <Link href="/blogs" className="text-lg font-medium transition-colors hover:text-black/80 cursor-pointer">
-                            Blogs
+                        <Link href="/blog" className="text-lg font-medium transition-colors hover:text-black/80 cursor-pointer">
+                            Blog
                         </Link>
                         <Link href="/contactus" className="text-lg font-medium transition-colors hover:text-black/80 cursor-pointer">
                             Contact Us

@@ -36,7 +36,7 @@ export function HeroSection() {
                 <CarouselContent>
                     {images.map((src, index) => (
                         <CarouselItem key={index} className="w-full flex justify-center">
-                            <div className="p-2 w-[90%]">
+                            <div className="p-4 w-[90%]">
                                 <Card>
                                     <CardContent className="flex items-center justify-center p-0">
                                         <Image

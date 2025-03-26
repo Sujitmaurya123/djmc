@@ -23,13 +23,13 @@ const JournalismGallery: React.FC = () => {
                 <title>Department of Journalism & Mass Communication</title>
             </Head>
 
-            <div className="min-h-screen bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
+            <div className="min-h-screen  py-8 px-4 sm:px-6 lg:px-8">
                 {/* Department Header */}
                 <div className=" mx-auto text-center mb-12">
-                    <h1 className="text-4xl font-bold text-gray-800">
+                    <h1 className="text-4xl font-bold text-white">
                         Department of Journalism & Mass Communication
                     </h1>
-                    <p className="mt-4 text-lg text-gray-600">
+                    <p className="mt-4 text-lg text-white">
                         Explore the vibrant moments captured from various events, workshops,
                         and activities conducted by the department.
                     </p>
@@ -37,7 +37,7 @@ const JournalismGallery: React.FC = () => {
 
                 {/* Gallery Section */}
                 <div className="max-w-6xl mx-auto">
-                    <h2 className="text-2xl font-semibold text-gray-700 mb-6">
+                    <h2 className="text-2xl font-semibold text-white mb-6">
                         Photo Gallery
                     </h2>
 

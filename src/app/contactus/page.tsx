@@ -11,7 +11,7 @@ const Contact: NextPage = () => {
                 <h1 className="text-3xl font-bold text-blue-800 sm:text-4xl mb-4">
                     Contact Us
                 </h1>
-                <p className="text-gray-600 max-w-2xl mx-auto">
+                <p className="text-white max-w-2xl mx-auto">
                     Get in touch with the Department of Journalism and Mass Communication.
                     We are here to answer any questions you may have about our programs, courses, and events.
                 </p>

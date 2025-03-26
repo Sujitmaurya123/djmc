@@ -70,9 +70,23 @@ const Footer: React.FC = () => {
             </div>
 
             {/* Bottom Text */}
-            <div className="text-center text-gray-500 text-sm mt-8 border-t border-gray-700 pt-4">
-                © {new Date().getFullYear()} MyBrand. All Rights Reserved.
+            <div className="text-center text-gray-500 text-sm mt-4 border-t border-gray-700 pt-2">
+                © {new Date().getFullYear()} Department of Journalism and Mass Communication
+                (Chhatrapati Shahu Ji Maharaj University, Kanpur)
+. All Rights Reserved.
             </div>
+            <div className="text-center text-gray-500 text-sm mt-0 border-gray-700 pt-1">
+                Developed By{" "}
+                <Link
+                    href="https://sujit-portfolio-delta.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800 font-semibold"
+                >
+                    Sujit Kumar
+                </Link>
+            </div>
+
         </footer>
     );
 };

@@ -32,8 +32,8 @@ const MobileNav: React.FC<{ onClose: () => void }> = ({ onClose }) => {
                 Abouts
             </Link>
            
-            <Link href="/blogs" className="text-lg font-medium transition-colors hover:text-black/80 cursor-pointer">
-                Blogs
+            <Link href="/blog" className="text-lg font-medium transition-colors hover:text-black/80 cursor-pointer">
+                Blog
             </Link>
             <Link href="/contactus" className="text-lg font-medium transition-colors hover:text-black/80 cursor-pointer">
                 Contact Us

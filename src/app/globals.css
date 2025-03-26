@@ -126,17 +126,17 @@
 } */
 
 /* Reset default browser styles */
-* {
+/* * {
   margin: 0;
   padding: 0;
   /* box-sizing: border-box; */
-}
+
 
 /* Apply a default font */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #A91101;
+  color: #fef8f8;
 }
 
 /* Global link styles

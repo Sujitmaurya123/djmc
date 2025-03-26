@@ -17,7 +17,7 @@ export default function ProgramAccordion({ title, content, defaultOpen = false }
     return (
         <div className="border rounded-md overflow-hidden">
             <button
-                className={`w-full flex justify-between items-center p-4 text-left font-medium text-lg ${isOpen ? "bg-primary text-gray-700" : "bg-red-500 text-primary hover:bg-gray-50"
+                className={`w-full flex justify-between items-center p-4 text-left font-medium text-lg ${isOpen ? "bg-primary text-white" : "bg-red-500 text-primary hover:bg-blue-300"
                     }`}
                 onClick={() => setIsOpen(!isOpen)}
             >
