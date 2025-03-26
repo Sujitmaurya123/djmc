@@ -25,6 +25,74 @@ const faqData = [
     {
         question: "What is the admission process?",
         answer: "The admission process includes online application (Samarth portal), document verification, and payment of fees."
+    },
+    {
+        question: "What are the important admission dates and deadlines?",
+        answer: "Admission dates first week of July. Visit the CSJMU official website (csjmu.ac.in) for the latest notifications."
+    },
+    {
+        "question": "How can I apply for admission?",
+        "answer": "Applications can be submitted online through the university’s website/Samarth Portal."
+    },
+    {
+        "question": "What documents are required for admission?",
+        "answer": "The required documents include Mark sheets (10th, 12th, and graduation for MAJMC), Transfer Certificate (TC), Character Certificate, Aadhaar Card, and recent passport-size photographs."
+
+    },
+    {
+        "question": "What subjects are covered in the BAJMC/MAJMC/PGDJMC and MAFM program?",
+        "answer": "The subjects covered include Print & Electronic Media, Digital Journalism, Public Relations & Advertising, Graphic Design, Media Laws & Ethics, Broadcast Journalism, Photojournalism & Documentary Production, and Film Making."
+
+    },
+    {
+        "question": "Is the course available in Hindi or English?",
+        "answer": "The program is available in both Hindi and English."
+    },
+    {
+        "question": "Does the course include practical training and internships?",
+        "answer": "Yes, students undergo internships with media houses and work on live projects."
+    },
+    {
+        "question": "Are there any workshops or guest lectures in the program?",
+        "answer": "Yes, workshops, guest lectures, and industry interactions are organized regularly."
+    },
+    {
+        "question": "What is the total course fee for BAJMC/PGSJMC/MAJMC and MAFM?",
+        "answer": "Fee details visit the CSJMU official website(csjmu.ac.in) for the latest structure."
+    },
+    {
+        "question": "Are there any scholarships or financial aid options available?",
+        "answer": "Yes, scholarships are available for meritorious students, SC/ST/OBC/EWS candidates (as per government norms), and through state and central government schemes."
+        
+    },
+    {
+        "question": "Can the fees be paid in instalments?",
+        "answer": "Yes, the university may allow instalment-based payments. Contact the admission office for details."
+    },
+    {
+        "question": "Does DJMC offer placement support?",
+        "answer": "Yes, the institute provides placement assistance through campus drives and industry tie-ups."
+    },
+    {
+        "question": "Are internships provided by the institute?",
+        "answer": "Yes, internships are a mandatory part of the course, with opportunities in media houses, PR firms, and advertising agencies."
+    },
+    {
+        "question": "Does DJMC provide career counselling for students?",
+        "answer": "Yes, the departments offer career guidance for job placements and higher studies."
+    },
+    {
+        "question": "What facilities are available for journalism students?",
+        "answer": "Tv Studio Media Lab Computer LabLibrary Editing room" 
+        
+    },
+    {
+        "question": "Is hostel accommodation available for students?",
+        "answer": "Yes, both boy’s and girl’s hostels are available on the campus."
+    },
+    {
+        "question": "Can I visit the campus before applying?",
+        "answer": "Yes, campus visits are allowed. Contact the admission office for scheduling a visit."
     }
 ];
 
