@@ -1,4 +1,5 @@
 // pages/index.tsx
+import FacultyGallery from "@/components/Faculty-gallery";
 import type { NextPage } from "next";
 import Image from "next/image";
 
@@ -72,6 +73,9 @@ const Home: NextPage = () => {
                 </div>
 
                 
+            </div>
+            <div>
+                <FacultyGallery/>
             </div>
 
             {/* Department Contact */}
