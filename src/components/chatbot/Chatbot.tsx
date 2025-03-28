@@ -94,6 +94,14 @@ const faqData = [
     {
         "question": "Can I visit the campus before applying?",
         "answer": "Yes, campus visits are allowed. Contact the admission office for scheduling a visit."
+    },
+    {
+        "question":"Name of the Head of Department",
+        "answer":"Dr Vishal Sharma, "
+    },
+    {
+        "question": "Contact number",
+        "answer": "9026760033"
     }
 ];
 
