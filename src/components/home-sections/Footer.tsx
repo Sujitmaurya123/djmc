@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
                 (Chhatrapati Shahu Ji Maharaj University, Kanpur)
 . All Rights Reserved.
             </div>
-            <div className="text-center text-gray-500 text-sm mt-0 border-gray-700 pt-1">
+            {/* <div className="text-center text-gray-500 text-sm mt-0 border-gray-700 pt-1">
                 Developed By{" "}
                 <Link
                     href="https://sujit-portfolio-delta.vercel.app"
@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
                 >
                     Sujit Kumar
                 </Link>
-            </div>
+            </div> */}
 
         </footer>
     );
