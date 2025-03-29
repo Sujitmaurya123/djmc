@@ -27,13 +27,13 @@ const Footer: React.FC = () => {
                 {/* Middle Section - Quick Links */}
                 <div className="flex flex-col space-y-3">
                     <h3 className="text-lg font-semibold text-white mb-2">Quick Links</h3>
-                    <Link href="/about" className="group flex items-center text-gray-400 hover:text-white transition">
+                    <Link href="/abouts" className="group flex items-center text-gray-400 hover:text-white transition">
                         <Home className="w-5 h-5 mr-2 group-hover:text-blue-400" /> About Us
                     </Link>
                     <Link href="/services" className="group flex items-center text-gray-400 hover:text-white transition">
                         <Briefcase className="w-5 h-5 mr-2 group-hover:text-green-400" /> Services
                     </Link>
-                    <Link href="/contact" className="group flex items-center text-gray-400 hover:text-white transition">
+                    <Link href="/contactus" className="group flex items-center text-gray-400 hover:text-white transition">
                         <PhoneCall className="w-5 h-5 mr-2 group-hover:text-yellow-400" /> Contact
                     </Link>
                     <Link href="/blog" className="group flex items-center text-gray-400 hover:text-white transition">
@@ -68,13 +68,22 @@ const Footer: React.FC = () => {
                     </div>
                 </div>
             </div>
-
+            <div className="flex  justify-center mt-2">
+                <Image
+                    src="/images/URL_QR_Code.png"
+                    alt="URL QR Code"
+                    width={150}
+                    height={50}
+                    className="opacity-90 hover:opacity-100 transition-opacity"
+                />
+            </div>
             {/* Bottom Text */}
             <div className="text-center text-gray-500 text-sm mt-4 border-t border-gray-700 pt-2">
                 © {new Date().getFullYear()} Department of Journalism and Mass Communication
                 (Chhatrapati Shahu Ji Maharaj University, Kanpur)
 . All Rights Reserved.
             </div>
+            
             {/* <div className="text-center text-gray-500 text-sm mt-0 border-gray-700 pt-1">
                 Developed By{" "}
                 <Link

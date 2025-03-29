@@ -13,7 +13,7 @@ const QuoteSection: React.FC = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1 }}
                 >
-                    &quot;Journalism is the first rough draft of history.&quot;
+                    &quot;Fake news is cheap to produce. Genuine journalism is expensive.&quot;
                 </motion.blockquote>
                 <motion.p
                     className="mt-6 text-lg text-gray-700 font-medium"
@@ -21,7 +21,7 @@ const QuoteSection: React.FC = () => {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.8, duration: 1 }}
                 >
-                    — Philip L. Graham
+                    — Toomas Hendrik Ilves
                 </motion.p>
             </div>
         </section>

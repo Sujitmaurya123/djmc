@@ -102,6 +102,18 @@ const faqData = [
     {
         "question": "Contact number",
         "answer": "9026760033"
+    },
+    {
+        "question": "Who is the Vice Chancellor of CSJMU",
+        "answer": "Prof. Vinay Kumar Pathak"
+    },
+    {
+        "question": "Who is the registrar of CSJMU",
+        "answer": "Dr Anil Kumar Yadav"
+    },
+    {
+        "question": "for More Information",
+        "answer": "Please contact to the Department"
     }
 ];
 

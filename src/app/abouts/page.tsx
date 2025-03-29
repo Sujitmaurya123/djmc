@@ -45,9 +45,9 @@ const Home: NextPage = () => {
                     <h2 className="text-xl font-semibold text-gray-700 mb-4 text-center lg:text-left">
                         HOD&apos;s / In-charge&apos;s Message
                     </h2>
-                    <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto lg:mx-0 mb-4 shadow-lg">
+                    <div className="relative w-70 h-45  overflow-hidden mx-auto lg:mx-0 mb-4 shadow-lg">
                         <Image
-                            src="/images/hod_image.png"
+                            src="/images/hod_img.jpg"
                             alt="HOD's Image"
                             layout="fill"
                             objectFit="cover"
