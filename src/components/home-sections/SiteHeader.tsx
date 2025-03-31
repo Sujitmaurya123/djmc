@@ -47,34 +47,36 @@ export function SiteHeader() {
                     <Link href="/" className="flex items-center space-x-3 sm:space-x-4">
                         {/* Logo Section */}
                         <Image
-                            src="/csjm-logo.png"
+                            src="/logo4.png"
                             alt="Department Logo"
                             width={100}
-                            height={100}
-                            style={{ objectFit: "cover" }}
-                            className="h-[50px] w-[50px] sm:h-[60px] sm:w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px] rounded-full"
+                            height={50}
+                            quality={100}
+                             unoptimized
+                            style={{ objectFit: "fill" }}
+                            className="h-[60px] w-[400px]"
                         />
 
                         {/* Text Section */}
-                        <div className="text-left">
+                        {/* <div className="text-left">
                             {/* Visible only on large screens */}
-                            <span className="  text-2xl font-semibold text-headingcol ">
+                            {/* <span className="  text-2xl font-semibold text-headingcol ">
                                 Department of Journalism and Mass Communication
                             </span>
                             <br />
                             <span className="  text-gray-600">
                                 (Chhatrapati Shahu Ji Maharaj University, Kanpur)
                             </span>
-                        </div>
+                        </div> */} 
                         {/* Logo Section */}
-                        <Image
+                        {/* <Image
                             src="/csjmnaaclogo.jpeg"
                             alt="Department Logo"
                             width={100}
                             height={100}
                             style={{ objectFit: "cover" }}
                             className="h-[40px] w-[50px] sm:h-[40px] sm:w-[60px] md:h-[50px] md:w-[70px] lg:h-[60px] lg:w-[80px] rounded-full"
-                        />
+                        /> */}
                     </Link>
                 </div>
 

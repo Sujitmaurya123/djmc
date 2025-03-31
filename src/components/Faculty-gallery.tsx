@@ -57,8 +57,9 @@ const facultyData: FacultyMember[] = [
         id: 8,
         name: "Prem Kishore Shukla",
         designation: "Lecturer",
-        imageUrl: "/images/faculty8.jpeg",
+        imageUrl: "/images/kisor.jpg",
     },
+    
 ];
 
 const FacultyGallery: React.FC = () => {

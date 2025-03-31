@@ -13,8 +13,8 @@ import {
 import Image from "next/image";
 
 const images = [
-    "/images/image3.jpg",
-    "/images/image1.jpg",
+    "/images/gallery31.jpg",
+    
     "/images/image2.jpg",
     "/images/image4.jpg",
     "/images/image5.jpg"
@@ -44,7 +44,7 @@ export function HeroSection() {
                                             alt={`Slide ${index + 1}`}
                                             width={1000}
                                             height={600}
-                                            className="w-full h-[50vh] sm:h-[50vh] md:h-[60vh] lg:h-[80vh] object-cover rounded-lg"
+                                            className="w-full h-[50vh] sm:h-[50vh] md:h-[60vh] lg:h-[80vh] object-fill rounded-lg"
                                         />
                                     </CardContent>
                                 </Card>
