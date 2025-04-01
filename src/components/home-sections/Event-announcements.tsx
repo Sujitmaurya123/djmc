@@ -92,19 +92,18 @@ const EventAnnouncements: React.FC = () => {
                     <h2 className="text-2xl font-bold mb-4 text-white">Latest Announcements</h2>
                     <div className="space-y-4">
                         {/* Announcement Card */}
-                        <div className=" p-4  w-full">
-                            <h3 className="text-lg font-semibold text-blue-800">🎉 New Feature Released!</h3>
-                            <p className="text-sm text-white">We’ve added a new feature to enhance your experience. Check it out now!</p>
-                            <p className="text-sm text-white">We’ve added a new feature to enhance your experience. Check it out now!</p>
-                            <p className="text-sm text-white">We’ve added a new feature to enhance your experience. Check it out now!</p>
-                        </div>
-                        <div className=" p-4  w-full">
-                            <h3 className="text-lg font-semibold text-blue-800">🚀 Upcoming Update</h3>
-                            <p className="text-sm text-white">Stay tuned for our next big update, coming soon!</p>
-                            <p className="text-sm text-white">Stay tuned for our next big update, coming soon!</p>
-                            <p className="text-sm text-white">Stay tuned for our next big update, coming soon!</p>
+                        <ul className=" p-4  w-full list-disc">
+                            {/* <h3 className="text-lg font-semibold text-blue-800">🎉 New Feature Released!</h3> */}
+                            <li className="text-sm text-white">पत्रकारिता के मेधावी छात्रों को मिलेगा गणेश शंकर विद्यार्थी पुरस्कार</li>
+                            <li className="text-sm text-white">विश्वविद्यालय स्तर पर सर्टिफिकेट के साथ दिया जाएगा कैश प्राइज</li>
+                            <li className="text-sm text-white">आगामी सत्र 2025-26 से शुरू होगी अनूठी पहल</li>
+                        
+                            
+                            <li className="text-sm text-white">गणेश शंकर विद्यार्थी के जीवन पर तैयार होगी  डॉक्यूमेंट्री</li>
+                            <li className="text-sm text-white">पत्रकारिता एवं जनसंचार विभाग द्वारा गणेश शंकर विद्यार्थी के बलिदान दिवस आयोजित कार्यक्रम में हुई घोषणा</li>
 
-                        </div>
+
+                        </ul>
                     </div>
 
                     {/* Like & Engagement Stats */}

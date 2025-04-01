@@ -9,7 +9,7 @@ const Home: NextPage = () => {
             {/* Header Section */}
             <div className="mb-8">
                 <h1 className="text-2xl font-bold text-white sm:text-3xl text-center mb-8">
-                    HOD&apos;s / In-charge&apos;s Message & About The Department
+                  VC / HOD&apos;s  Message & About The Department
                 </h1>
             </div>
             
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
                 {/* HOD's Message */}
                 <div className="mb-6 lg:mb-0 bg-gray-100 p-6 rounded-lg shadow-md">
                     <h2 className="text-xl font-semibold text-gray-700 mb-4 text-center lg:text-left">
-                        HOD&apos;s / In-charge&apos;s Message
+                        HOD&apos;s  Message
                     </h2>
                     <div className="relative w-70 h-45  overflow-hidden mx-auto lg:mx-0 mb-4 shadow-lg">
                         <Image
