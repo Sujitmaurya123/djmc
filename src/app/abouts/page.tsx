@@ -12,9 +12,35 @@ const Home: NextPage = () => {
                     HOD&apos;s / In-charge&apos;s Message & About The Department
                 </h1>
             </div>
+            
 
             {/* Main Content */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                {/* HOD's Message */}
+                <div className="mb-6 lg:mb-0 bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h2 className="text-xl font-semibold text-gray-700 mb-4 text-center lg:text-left">
+                        Vice Chancellor’s Message
+                    </h2>
+                    <div className="relative w-50 h-50  rounded-full shadow overflow-hidden mx-auto lg:mx-0 mb-4 shadow-lg">
+                        <Image
+                            src="/images/vc_sir.jpg"
+                            alt="HOD's Image"
+                            layout="fill"
+                            objectFit="cover"
+                        />
+                    </div>
+                    <p className="text-gray-600 text-sm sm:text-base leading-relaxed text-center lg:text-left">
+                        Dear All
+                        Since its establishment in 2004 the Department of Journalism and Mass Communication of the CSJM University, Kanpur has been engaged in providing quality education to young students in various branches of Journalism. This includes BAJMC, MAJMC, PGDJMC, MA(Film Making) and PhD. DJMC has a pool of dedicated and qualified faculty, adequate research and educational facilities, a state-of-art curriculum of studies. This provides an excellent environment for academic excellence and the inculcation of a spirit of learning and exchange of knowledge. This has enabled the students of DJMC to achieve excellence in both academics and co-curricular activities. The Department is forging ahead to create Anchors, Reporters and professionals. I hope that DJMC will grow in the future towards becoming one of the leading Journalism institutes in the country. It gives me immense pleasure to convey my wishes for the development of this Institute. I would like to express my full support and best wishes to all faculty, staff members and the students for their future aspirations.
+                    </p>
+                    
+                    <div className="mt-6 text-center lg:text-left">
+                        <ul className="text-gray-700 font-semibold text-sm sm:text-base">
+                            <li>Prof. Vinay Kumar Pathak</li> 
+                            <li>Vice Chancellor CSJM University, Kanpur</li> 
+                        </ul>
+                    </div>
+                </div>
                 {/* About The Department */}
                 <div className="bg-gray-100 p-6 rounded-lg shadow-md">
                     <h2 className="text-xl font-semibold text-gray-700 mb-4 text-center lg:text-left">
@@ -36,7 +62,7 @@ const Home: NextPage = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            Download Brochure 2023-24
+                            Download Brochure 2025-26
                         </a>
                     </div>
                 </div>

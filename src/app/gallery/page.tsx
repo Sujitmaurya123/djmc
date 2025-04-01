@@ -38,6 +38,8 @@ const images = [
     "/images/gallery31.jpg",
     "/images/gallery32.jpg",
     "/images/gallery33.jpg",
+    "/images/image8.jpg",
+
 ];
 
 const JournalismGallery: React.FC = () => {

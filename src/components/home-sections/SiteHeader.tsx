@@ -47,7 +47,7 @@ export function SiteHeader() {
                     <Link href="/" className="flex items-center space-x-3 sm:space-x-4">
                         {/* Logo Section */}
                         <Image
-                            src="/logo4.png"
+                            src="/logo5.png"
                             alt="Department Logo"
                             width={100}
                             height={50}
