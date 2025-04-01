@@ -45,22 +45,22 @@ const Footer: React.FC = () => {
                 <div className="flex flex-col space-y-4">
                     <h3 className="text-lg font-semibold text-white mb-2">Follow Us</h3>
                     <div className="flex space-x-4">
-                        <Link href="https://facebook.com" target="_blank">
+                        <Link href="https://facebook.com/csjmuofficial" target="_blank">
                             <div className="p-2 rounded-full bg-gray-800 hover:bg-blue-600 transition">
                                 <Facebook className="w-6 h-6 text-gray-400 hover:text-white" />
                             </div>
                         </Link>
-                        <Link href="https://twitter.com" target="_blank">
+                        <Link href="https://twitter.com/csjmuofficial" target="_blank">
                             <div className="p-2 rounded-full bg-gray-800 hover:bg-blue-400 transition">
                                 <Twitter className="w-6 h-6 text-gray-400 hover:text-white" />
                             </div>
                         </Link>
-                        <Link href="https://instagram.com" target="_blank">
+                        <Link href="https://www.instagram.com/csjmuofficial" target="_blank">
                             <div className="p-2 rounded-full bg-gray-800 hover:bg-pink-500 transition">
                                 <Instagram className="w-6 h-6 text-gray-400 hover:text-white" />
                             </div>
                         </Link>
-                        <Link href="https://linkedin.com" target="_blank">
+                        <Link href="https://linkedin.com/csjmuofficial" target="_blank">
                             <div className="p-2 rounded-full bg-gray-800 hover:bg-blue-700 transition">
                                 <Linkedin className="w-6 h-6 text-gray-400 hover:text-white" />
                             </div>
@@ -79,6 +79,9 @@ const Footer: React.FC = () => {
             </div>
             {/* Bottom Text */}
             <div className="text-center text-gray-500 text-sm mt-4 border-t border-gray-700 pt-2">
+                <p>MoUs with institutions/ industries  in India and abroad -1.Bundelkhand University, Jhansi, Up 2.Radio Kanpuriya FM 90.0  3.PATS Literary Solutions Ltd. Kanpur  4.The Hindu Today, London</p>
+            </div>
+            <div className="text-center text-gray-500 text-sm mt-2  pt-2">
                 © {new Date().getFullYear()} Department of Journalism and Mass Communication
                 (Chhatrapati Shahu Ji Maharaj University, Kanpur)
 . All Rights Reserved.

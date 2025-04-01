@@ -21,7 +21,7 @@ const Home: NextPage = () => {
                     <h2 className="text-xl font-semibold text-gray-700 mb-4 text-center lg:text-left">
                         Vice Chancellor’s Message
                     </h2>
-                    <div className="relative w-50 h-50  rounded-full shadow overflow-hidden mx-auto lg:mx-0 mb-4 shadow-lg">
+                    <div className="relative w-50 h-50  rounded-full  overflow-hidden mx-auto lg:mx-0 mb-4 shadow-lg">
                         <Image
                             src="/images/vc_sir.jpg"
                             alt="HOD's Image"
