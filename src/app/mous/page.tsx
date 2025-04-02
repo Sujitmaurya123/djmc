@@ -3,7 +3,7 @@ import React from "react";
 const MoUs = () => {
     const agreements = [
         { name: "Bundelkhand University", location: "Jhansi, UP" },
-        { name: "Radio Kanpuriya FM 90.0", location: "India" },
+        { name: "Radio Kanpuriya FM 90.0", location: "Kanpur" },
         { name: "PATS Literary Solutions Ltd.", location: "Kanpur" },
         { name: "The Hindu Today", location: "London" },
     ];
