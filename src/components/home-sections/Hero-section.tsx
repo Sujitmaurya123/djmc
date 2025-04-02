@@ -18,7 +18,7 @@ const images = [
     "/images/image5.jpg",
     "/images/image4.jpg",
     "/images/gallery31.jpg", 
-    "/images/image2.jpg",
+    "/images/image9.jpg",
 ];
 
 export function HeroSection() {
