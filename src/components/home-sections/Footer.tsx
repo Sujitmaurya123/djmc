@@ -39,6 +39,9 @@ const Footer: React.FC = () => {
                     <Link href="/blog" className="group flex items-center text-gray-400 hover:text-white transition">
                         <Newspaper className="w-5 h-5 mr-2 group-hover:text-red-400" /> Blog
                     </Link>
+                    <Link href="/mous" className="group flex items-center text-gray-400 hover:text-white transition">
+                        MoUs
+                    </Link>
                 </div>
 
                 {/* Right Section - Social Media Links */}
@@ -78,10 +81,8 @@ const Footer: React.FC = () => {
                 />
             </div>
             {/* Bottom Text */}
-            <div className="text-center text-gray-500 text-sm mt-4 border-t border-gray-700 pt-2">
-                <p>MoUs with institutions/ industries  in India and abroad -1.Bundelkhand University, Jhansi, Up 2.Radio Kanpuriya FM 90.0  3.PATS Literary Solutions Ltd. Kanpur  4.The Hindu Today, London</p>
-            </div>
-            <div className="text-center text-gray-500 text-sm mt-2  pt-2">
+            
+            <div className="text-center text-gray-500 text-sm mt-2  border-t border-gray-700 pt-2">
                 © {new Date().getFullYear()} Department of Journalism and Mass Communication
                 (Chhatrapati Shahu Ji Maharaj University, Kanpur)
 . All Rights Reserved.
