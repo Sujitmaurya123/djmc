@@ -110,6 +110,9 @@ export function SiteHeader() {
                         <Link href="/abouts" className="text-lg font-medium transition-colors hover:text-black/80 cursor-pointer">
                             Abouts
                         </Link>
+                        <Link href="/mous" className="text-lg font-medium transition-colors hover:text-black/80 cursor-pointer">
+                            MoUs
+                        </Link>
                         <Resources />
                         <Link href="/blog" className="text-lg font-medium transition-colors hover:text-black/80 cursor-pointer">
                             Blog

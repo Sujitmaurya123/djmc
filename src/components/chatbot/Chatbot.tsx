@@ -146,7 +146,7 @@ const Chatbot: React.FC = () => {
         if (results.length > 0 && results[0].score && results[0].score <= 0.4) {
             return results[0].item.answer;
         } else {
-            return "Sorry, I couldn't find an answer to your question.";
+            return "Sorry,Please contact the respective department.";
         }
     };
 
