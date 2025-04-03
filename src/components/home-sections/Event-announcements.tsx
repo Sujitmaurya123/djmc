@@ -14,28 +14,28 @@ import Link from "next/link";
 
 const slides = [
     {
-        image: "/images/image1.jpg",
+        image: "/images/event1.jpg",
         title: "Event 1",
-        description: "Explore the stunning views of nature.",
-        link: "/landscape"
+        description: "सीएसजेएमयू में ‘एक राष्ट्र एक चुनाव’ विषय पर जिला स्तरीय यूथ पार्लियामेंट प्रतियोगिता का समापन",
+        link: "/event1"
     },
     {
-        image: "/images/image2.jpg",
+        image: "/images/event2.jpg",
         title: "Event 2",
-        description: "Experience the magic of urban nightlife.",
-        link: "/city"
+        description: "सीएसजेएमयू में होली मिलन समारोह, सांस्कृतिक रंग में रंगा विश्वविद्यालय",
+        link: "/event2"
     },
     {
-        image: "/images/image3.jpg",
+        image: "/images/event3.jpg",
         title: "Event 3",
-        description: "Discover breathtaking mountain trails.",
-        link: "/mountains"
+        description: "नाट्य प्रतियोगिता में सीएसजेएमयू को प्रथम स्थान, भाषण में दूसरा स्थान; राजभवन में हुआ राज्यस्तरीय आयोजन",
+        link: "/event3"
     },
     {
-        image: "/images/image3.jpg",
+        image: "/images/event4.jpg",
         title: "Event 4",
-        description: "Discover breathtaking mountain trails.",
-        link: "/mountains"
+        description: "सीएसजेएमयू और नीमा फोरम के संयुक्त तत्वावधान में अंतर्राष्ट्रीय महिला दिवस पर सशक्तिकरण कार्यक्रम",
+        link: "/event4"
     }
 ];
 

@@ -14,34 +14,34 @@ import Link from "next/link";
 
 const slides = [
     {
-        image: "/images/image1.jpg",
+        image: "/images/news1.jpg",
         title: "News1",
-        description: "The Department of Journalism and Mass Communication at Chhatrapati Shahu Ji Maharaj University, Kanpur, is dedicated to nurturing future media professionals with a strong foundation in ethical journalism, communication skills, and critical thinking. The department offers a dynamic curriculum that blends theoretical knowledge with practical exposure through fieldwork, industry visits, and hands-on training.",
-        link: "/landscape"
+        description: "राजनीति विज्ञान विभाग एवं IIPA कानपुर शाखा द्वारा “एआई और सुशासन” पर राष्ट्रीय संगोष्ठी आयोजित",
+        link: "/news1"
     },
     {
-        image: "/images/image2.jpg",
+        image: "/images/news2.jpg",
         title: "News2",
-        description: "Emphasizing creativity, innovation, and professionalism, the department prepares students to excel in the fast-paced media landscape. Equipped with modern facilities and experienced faculty, it aims to develop responsible journalists and media experts who can contribute effectively to society while upholding the principles of truth and integrity.",
-        link: "/city"
+        description: "सीएसजेएमयू पत्रकारिता विभाग की एआई क्रांति: लॉन्च किया न्यूज़ पोर्टल और चैटबॉट ‘करंटा’",
+        link: "/news2"
     },
     {
-        image: "/images/image3.jpg",
+        image: "/images/news3.jpg",
         title: "News3",
-        description: "The Department of Journalism and Mass Communication at Chhatrapati Shahu Ji Maharaj University, Kanpur, is dedicated to nurturing future media professionals with a strong foundation in ethical journalism, communication skills, and critical thinking. The department offers a dynamic curriculum that blends theoretical knowledge with practical exposure through fieldwork, industry visits, and hands-on training.",
-        link: "/mountains"
+        description: "सीएसजेएमयू और आर्ट ऑफ़ लिविंग के बीच एमओयू, छात्रों के समग्र विकास की दिशा में बड़ा कदम",
+        link: "/news3"
     },
     {
-        image: "/images/image4.jpg",
+        image: "/images/news4.jpeg",
         title: "News4",
-        description: "Emphasizing creativity, innovation, and professionalism, the department prepares students to excel in the fast-paced media landscape. Equipped with modern facilities and experienced faculty, it aims to develop responsible journalists and media experts who can contribute effectively to society while upholding the principles of truth and integrity.",
-        link: "/ocean"
+        description: "सीएसजेएमयू द्वारा उन्नत भारत अभियान के तहत ग्राम शेखूपुर में स्वास्थ्य शिविर का आयोजन",
+        link: "/news4"
     },
     {
-        image: "/images/image5.jpg",
-        title: "News4",
-        description: "The Department of Journalism and Mass Communication at Chhatrapati Shahu Ji Maharaj University, Kanpur, is dedicated to nurturing future media professionals with a strong foundation in ethical journalism, communication skills, and critical thinking. The department offers a dynamic curriculum that blends theoretical knowledge with practical exposure through fieldwork, industry visits, and hands-on training.",
-        link: "/safari"
+        image: "/images/news5.jpg",
+        title: "News5",
+        description: "सीएसजेएमयू में ‘एक राष्ट्र एक चुनाव’ विषय पर जिला स्तरीय यूथ पार्लियामेंट प्रतियोगिता का समापन",
+        link: "/news5"
     }
 ];
 

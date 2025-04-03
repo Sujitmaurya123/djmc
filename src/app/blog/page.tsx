@@ -7,7 +7,7 @@ import Image from "next/image";
 interface BlogPost {
     id: number;
     title: string;
-    excerpt: string;
+    
     imageUrl: string;
     slug: string;
 }
@@ -16,44 +16,38 @@ interface BlogPost {
 const blogPosts: BlogPost[] = [
     {
         id: 1,
-        title: "Sunita Williams: NASA Astronaut's Journey",
-        excerpt:
-            "Sunita Williams, a veteran NASA astronaut, has inspired millions with her journey to space and her remarkable achievements.",
-        imageUrl: "/images/sunita_williamsa.jpg",
-        slug: "sunita-williams-nasa-journey",
+        title: "भ्रामक खबरों व वीडियो की सत्यता की जांच",
+        
+        imageUrl: "/images/blog1.png",
+        slug: "blog1",
     },
     {
         id: 2,
-        title: "NASA's Artemis Mission: Returning to the Moon",
-        excerpt:
-            "NASA's Artemis program aims to land the first woman and the next man on the Moon, paving the way for future exploration.",
-        imageUrl: "/images/artemis_mission.jpeg",
-        slug: "nasa-artemis-moon-mission",
+        title: "विश्वविद्यालय में विकसित करने योग्य कौशल जो संचार उद्योग में नियोक्ताओं द्वारा मांगे जाते हैं",
+       
+        imageUrl: "/images/blog2.png",
+        slug: "blog2",
     },
     {
         id: 3,
-        title: "International Space Station: Life in Orbit",
-        excerpt:
-            "Learn about life aboard the International Space Station, where astronauts conduct scientific research and experience microgravity.",
-        imageUrl: "/images/iss_life.jpeg",
-        slug: "life-in-international-space-station",
+        title: "साइबर क्राइम की अंधेरी दुनिया: हकीकत, खतरे और सुरक्षा की जरूरत",
+        
+        imageUrl: "/images/blog3.jpg",
+        slug: "blog3",
     },
     { 
         id: 4,
-        title: "NASA's Mars Rover Perseverance: Exploring the Red Planet",
-        excerpt:
-            "Perseverance rover explores the Martian surface, searching for signs of ancient life and paving the way for human exploration.",
-        imageUrl: "/images/mars_rover.jpeg",
-        slug: "nasa-mars-rover-perseverance",
+        title: "साहब का जूता…",
+        imageUrl: "/images/blog4.png",
+        slug: "blog4",
     },
-    {
-        id: 5,
-        title: "Future of Space Travel: NASA's Ambitious Plans",
-        excerpt:
-            "NASA's future missions include deep space exploration, human missions to Mars, and advancements in space technology.",
-        imageUrl: "/images/space_travel.jpeg",
-        slug: "future-of-space-travel",
-    },
+    // {
+    //     id: 5,
+    //     title: "Future of Space Travel: NASA's Ambitious Plans",
+
+    //     imageUrl: "/images/space_travel.jpeg",
+    //     slug: "future-of-space-travel",
+    // },
 ];
 
 const Blog: NextPage = () => {
@@ -89,12 +83,10 @@ const Blog: NextPage = () => {
                             <h2 className="text-xl font-semibold text-gray-800 mb-2">
                                 {post.title}
                             </h2>
-                            <p className="text-gray-600 text-sm mb-4">
-                                {post.excerpt}
-                            </p>
+
 
                             {/* Read More Link */}
-                            <Link href={`/blog/${post.slug}`}>
+                            <Link href={`/blog/${post.slug}`} className="text-blue-800">
                                 
                                     Read More
                                 
