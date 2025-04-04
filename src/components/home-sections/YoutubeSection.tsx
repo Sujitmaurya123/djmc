@@ -8,14 +8,14 @@ const videoData = [
     {
         id: 1,
         thumbnail: "/images/image1.jpg",
-        videoUrl: "https://youtu.be/HL3uzoDiE80",
+        videoUrl: "https://youtu.be/7AhLDYrEUx8?si=7D5LCPl0nCUdg8HN",
         type: "youtube",
         title: "CSJMU News"
     },
     {
         id: 2,
         thumbnail: "/images/image2.jpg",
-        videoUrl: "https://youtu.be/6fulGBHsGQk",
+        videoUrl: "https://youtu.be/JvoJYG-UkxE?si=mCn_eylFffpRliV-",
         type: "youtube",
         title: "CSJMU News"
     },
