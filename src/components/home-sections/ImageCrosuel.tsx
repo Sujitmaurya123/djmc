@@ -68,7 +68,7 @@ const ImageCarousel: React.FC = () => {
                                         />
                                         {/* Text Content */}
                                         <div className="p-4 text-center">
-                                            <h3 className="text-lg font-semibold">{slide.title}</h3>
+                                           
                                             <p className="text-white text-sm mt-2">{slide.description}</p>
                                             {/* Link Button */}
                                             <Link href={slide.link}>

@@ -114,6 +114,40 @@ const faqData = [
     {
         "question": "for More Information",
         "answer": "Please contact to the Department"
+    },
+    {
+        "question": "hod",
+        "answer": "Dr Vishal Sharma"
+    },
+    {
+        "question": "Vice Chancellor of CSJMU",
+        "answer": "Prof. Vinay Kumar Pathak"
+    },
+    {
+        "question": "Registrar of CSJMU",
+        "answer": "Dr Anil Kumar Yadav"
+    },
+    {
+        "question": "Internship",
+        "answer" : "Yes, internships are a mandatory part of the course, with opportunities in media houses, PR firms, and advertising agencies.",
+    },
+    {
+        "question": "Placement",
+        "answer": "Yes, the institute provides placement assistance through campus drives and industry tie-ups.",
+    },
+    {
+        "question": "Subject in courses",
+        "answer": "Print & Electronic Media, Digital Journalism,Public Relations & Advertising,Graphic Design,Media Laws & Ethics, Broadcast Journalism, Photojournalism & Documentary Production, Film Making"
+        
+    },
+    {
+        "question": "Scholarship",
+        "answer": "Yes, scholarships are available for:\nMeritorious students\nSC/ST/OBC/EWS candidates (as per government norms)\nState and central government scholarships",
+    },
+    {
+        "question": "Facilities",
+        "answer": "TV Studio,Media Lab,Computer Lab,Library,Editing room"
+        
     }
 ];
 

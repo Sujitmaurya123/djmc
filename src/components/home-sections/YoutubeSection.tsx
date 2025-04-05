@@ -7,21 +7,21 @@ import Image from "next/image";
 const videoData = [
     {
         id: 1,
-        thumbnail: "/images/image1.jpg",
+        thumbnail: "/images/thumbnail1.jpg",
         videoUrl: "https://youtu.be/7AhLDYrEUx8?si=7D5LCPl0nCUdg8HN",
         type: "youtube",
         title: "CSJMU News"
     },
     {
         id: 2,
-        thumbnail: "/images/image2.jpg",
+        thumbnail: "/images/thumbnail2.jpg",
         videoUrl: "https://youtu.be/JvoJYG-UkxE?si=mCn_eylFffpRliV-",
         type: "youtube",
         title: "CSJMU News"
     },
     {
         id: 3,
-        thumbnail: "/images/image3.jpg",
+        thumbnail: "/images/thumbnail3.jpg",
         videoUrl: "https://youtu.be/ue-XDSQkTGQ",
         type: "youtube",
         title: "CSJMU News"
