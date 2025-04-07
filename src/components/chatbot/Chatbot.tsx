@@ -60,10 +60,18 @@ const faqData = [
     {
         "question": "What is the total course fee for BAJMC/PGSJMC/MAJMC and MAFM?",
         "answer": "Fee details visit the CSJMU official website(csjmu.ac.in) for the latest structure."
+    }, 
+    {
+        "question": "fees",
+        "answer": "BAJMC --- 31200/- (ONE YEAR),MAJMC --- 41200/- (ONE YEAR),PGDJMC --- 42200/- (ONE YEAR),MAJMC(LATERAL ENTRY) --- 42000/- (ONE YEAR),MA(FILM MAKING) --- 51200/- (ONE YEAR)"
+    },
+    {
+        "question": "Courses Fees",
+        "answer":"BAJMC --- 31200/- (ONE YEAR)"
     },
     {
         "question": "Are there any scholarships or financial aid options available?",
-        "answer": "Yes, scholarships are available for meritorious students, SC/ST/OBC/EWS candidates (as per government norms), and through state and central government schemes."
+        "answer": "MAJMC --- 41200/- (ONE YEAR),PGDJMC --- 42200/- (ONE YEAR),MAJMC(LATERAL ENTRY) --- 42000/- (ONE YEAR),MA(FILM MAKING) --- 51200/- (ONE YEAR)"
         
     },
     {
@@ -71,7 +79,7 @@ const faqData = [
         "answer": "Yes, the university may allow instalment-based payments. Contact the admission office for details."
     },
     {
-        "question": "Does DJMC offer placement support?",
+        "question": "Placement support?",
         "answer": "Yes, the institute provides placement assistance through campus drives and industry tie-ups."
     },
     {

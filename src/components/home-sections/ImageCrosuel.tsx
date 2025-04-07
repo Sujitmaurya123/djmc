@@ -14,6 +14,12 @@ import Link from "next/link";
 
 const slides = [
     {
+        image: "/images/news7.jpeg",
+        title: "News6",
+        description: "फेक न्यूज और मिसइन्फॉर्मेशन से निपटना आज की सबसे बड़ी चुनौती: प्रो. तनु डंग",
+        link: "/news6"
+    },
+    {
         image: "/images/news1.jpg",
         title: "News1",
         description: "राजनीति विज्ञान विभाग एवं IIPA कानपुर शाखा द्वारा “एआई और सुशासन” पर राष्ट्रीय संगोष्ठी आयोजित",
@@ -42,7 +48,8 @@ const slides = [
         title: "News5",
         description: "सीएसजेएमयू में ‘एक राष्ट्र एक चुनाव’ विषय पर जिला स्तरीय यूथ पार्लियामेंट प्रतियोगिता का समापन",
         link: "/news5"
-    }
+    },
+   
 ];
 
 const ImageCarousel: React.FC = () => {

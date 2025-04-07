@@ -51,7 +51,7 @@ export default function Home() {
                                     </div>
                                     <div className=" p-4 rounded-md">
                                         <h3 className="font-medium">Program Fee</h3>
-                                        <p>30,200/- Yearly</p>
+                                        <p>31,200/- Yearly</p>
                                     </div>
                                 </div>
 
@@ -88,7 +88,7 @@ export default function Home() {
                                     </div>
                                     <div className=" p-4 rounded-md">
                                         <h3 className="font-medium">Program Fee</h3>
-                                        <p>40,200/- Yearly</p>
+                                        <p>42,200/- Yearly</p>
                                     </div>
                                 </div>
 
@@ -138,7 +138,7 @@ export default function Home() {
                                     </div>
                                     <div className=" p-4 rounded-md">
                                         <h3 className="font-medium">Program Fee</h3>
-                                        <p>40,200/- Yearly</p>
+                                        <p>41,200/- Yearly</p>
                                     </div>
                                 </div>
 
@@ -177,7 +177,7 @@ export default function Home() {
                                     </div>
                                     <div className=" p-4 rounded-md">
                                         <h3 className="font-medium">Program Fee</h3>
-                                        <p>41,000/- Yearly</p>
+                                        <p>42,000/- Yearly</p>
                                     </div>
                                 </div>
 
@@ -191,6 +191,7 @@ export default function Home() {
                         }
                     />
                 </div>
+                <div className="mt-5 border border-white bg-red-500 p-4 hover:bg-blue-300">MA(FILM MAKING) --- 51200/- (ONE YEAR)</div>
             </section>
 
             {/* <footer className="bg-gray-800 text-white p-6 mt-12">
