@@ -36,7 +36,7 @@ const faqData = [
         "answer": "Applications can be submitted online through the university’s website/Samarth Portal."
     },
     {
-        "question": "What documents are required for admission?",
+        "question": "documents are required for admission?",
         "answer": "The required documents include Mark sheets (10th, 12th, and graduation for MAJMC), Transfer Certificate (TC), Character Certificate, Aadhaar Card, and recent passport-size photographs."
 
     },
@@ -67,7 +67,7 @@ const faqData = [
     },
     {
         "question": "Courses Fees",
-        "answer":"BAJMC --- 31200/- (ONE YEAR)"
+        "answer": "BAJMC --- 31200/- (ONE YEAR),MAJMC --- 41200/- (ONE YEAR),PGDJMC --- 42200/- (ONE YEAR),MAJMC(LATERAL ENTRY) --- 42000/- (ONE YEAR),MA(FILM MAKING) --- 51200/- (ONE YEAR)"
     },
     {
         "question": "Are there any scholarships or financial aid options available?",
@@ -156,6 +156,16 @@ const faqData = [
         "question": "Facilities",
         "answer": "TV Studio,Media Lab,Computer Lab,Library,Editing room"
         
+    },
+    {
+        "question": "Hostel Facilities",
+        "answer": "Yes, both boy’s and girl’s hostels are available on the campus."
+
+    },
+    {
+        "question": "Hostel ",
+        "answer": "Yes, both boy’s and girl’s hostels are available on the campus."
+
     }
 ];
 

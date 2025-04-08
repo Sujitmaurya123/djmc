@@ -190,8 +190,41 @@ export default function Home() {
                             </div>
                         }
                     />
+
+                    <ProgramAccordion
+                        title="M.A. Film Making (MAFM)"
+                        content={
+                            <div className="space-y-4">
+                                <p className="text-white">
+                                    The inclination for higher learning in the field of Film, Media and Communication sciences is the driving force in designing of Curriculum for the Post Graduate courses. In this course, the students customised to more serious and volatile issues looming within our society. As students from all educational backgrounds are admitted to this course the paradigm of learning also increases phenomenally. To ensure that every individual student can utilize the course to the fullest only a limited number of seats are released every academic year.
+
+                                </p>
+
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div className=" p-4 rounded-md">
+                                        <h3 className="font-medium">Eligibility</h3>
+                                        <p> Graduation in any stream from a recognized university/Institute</p>
+                                    </div>
+                                    <div className=" p-4 rounded-md">
+                                        <h3 className="font-medium">Duration</h3>
+                                        <p>2 Years</p>
+                                    </div>
+                                    <div className=" p-4 rounded-md">
+                                        <h3 className="font-medium">Intake</h3>
+                                        <p>30</p>
+                                    </div>
+                                    <div className=" p-4 rounded-md">
+                                        <h3 className="font-medium">Program Fee</h3>
+                                        <p>51,200/- Yearly</p>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                        }
+                    />
                 </div>
-                <div className="mt-5 border border-white bg-red-500 p-4 hover:bg-blue-300">MA(FILM MAKING) --- 51200/- (ONE YEAR)</div>
+
             </section>
 
             {/* <footer className="bg-gray-800 text-white p-6 mt-12">
