@@ -6,6 +6,7 @@ const MoUs = () => {
         { name: "Radio Kanpuriya FM 90.0", location: "Kanpur" },
         { name: "PATS Literary Solutions Ltd.", location: "Kanpur" },
         { name: "The Hindu Today", location: "London" },
+        { name: "Rangsila Production", location:"Mumbai"}
     ];
 
     return (
